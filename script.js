@@ -20,5 +20,5 @@ reset.addEventListener('click', () => {
 });
 
 function setCounter(value) {
-    counter.innerHTML = value;
+    counter.textContent = value;
 }
