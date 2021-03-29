@@ -9,3 +9,23 @@
     display: block;
     margin-bottom: 5px;
 }
+
+.btn {
+    font-size: 1.2rem;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: rgb(45, 45, 45);
+    background-color: antiquewhite;
+}
+
+.btn:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.btn:active {
+    border: 6px inset grey;
+}
