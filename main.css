@@ -1,0 +1,11 @@
+.container {
+    outline: 4px solid black;
+    background-color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+
+.container > span {
+    display: block;
+    margin-bottom: 5px;
+}
